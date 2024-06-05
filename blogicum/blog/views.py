@@ -116,7 +116,6 @@ class CategoryListView(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['category'] = self.category
-        print(1111111111111111, self.category)
         return context
 
 
